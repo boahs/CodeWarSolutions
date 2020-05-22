@@ -1,5 +1,5 @@
 function grader(score) {
-    if (score > 1 && score < 0.6){
+    if (score > 1 || score < 0.6){
     return "F";
     } else if (score >= 0.9){
     return "A";
@@ -9,5 +9,6 @@ function grader(score) {
     return "C";
     } else if (score >= 0.6){
     return "D";
+  
     }
       }

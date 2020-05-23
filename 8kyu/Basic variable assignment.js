@@ -1,4 +1,4 @@
 var a = "code";
 var b = "wa.rs";
 var name = `${a}${b}`;
-console.log({name});
+console.log({name});d

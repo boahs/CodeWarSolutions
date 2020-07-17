@@ -1,3 +1,5 @@
 function usdcny(usd) {
-  return `${usd * 6.75} Chinese Yuan`;
+  const conversion = usd * 6.75;
+  const fixed = conversion.toFixed(2);
+  return `${fixed} Chinese Yuan`;
 }

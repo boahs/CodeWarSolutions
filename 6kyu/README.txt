@@ -1,1 +1,0 @@
-level 8 kata JS
